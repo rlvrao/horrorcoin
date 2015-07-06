@@ -1,43 +1,34 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+src/*.exe
+src/horrorcoin
+src/horrorcoind
+src/test_horrorcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.horrorcoin
 
-# Folder config file
-Desktop.ini
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+horrorcoin-qt
+horrorcoin-Qt.app
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Unit-tests
+Makefile.test
+horrorcoin-qt_test
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Resources cpp
+qrc_*.cpp
 
-# Windows shortcuts
-*.lnk
+# Qt creator
+*.pro.user
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# Mac specific
 .DS_Store
-.AppleDouble
-.LSOverride
+build
 
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+!src/leveldb-*/Makefile

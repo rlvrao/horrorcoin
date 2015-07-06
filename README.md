@@ -1,0 +1,2 @@
+HorrorCoin (HRC)
+===========
